@@ -326,3 +326,109 @@
     </script>
 </body>
 </html>
+
+<style>
+    .info-container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+    .info-container h2 {
+        color: #0056b3;
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 5px;
+    }
+    .info-container h3 {
+        color: #007bff;
+    }
+    .info-container p {
+        margin-bottom: 10px;
+    }
+    .formula-box {
+        background: #e3f2fd;
+        padding: 10px;
+        border-left: 4px solid #007bff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .example-box {
+        background: #fff3cd;
+        padding: 10px;
+        border-left: 4px solid #ff9800;
+    }
+    .disclaimer-box {
+        background: #ffebee;
+        padding: 10px;
+        border-left: 4px solid #d32f2f;
+        color: #d32f2f;
+        font-weight: bold;
+    }
+</style>
+
+<div class="info-container">
+    <h2>📌 How to Use the DBATU SGPA & CGPA Calculator</h2>
+    
+    <h3>📊 Steps to Calculate SGPA</h3>
+    <p>1️⃣ Select the number of subjects.</p>
+    <p>2️⃣ Enter the credits and select the corresponding grade for each subject.</p>
+    <p>3️⃣ Click the <b>"Calculate SGPA"</b> button to get your Semester Grade Point Average.</p>
+
+    <h3>📈 Steps to Calculate CGPA</h3>
+    <p>1️⃣ Enter the number of semesters you have completed.</p>
+    <p>2️⃣ Enter the SGPA and total credits earned in each semester.</p>
+    <p>3️⃣ Click the <b>"Calculate CGPA"</b> button to get your Cumulative Grade Point Average.</p>
+
+    <h2>📖 Understanding SGPA & CGPA Calculation</h2>
+    
+    <h3>📝 SGPA Calculation Formula</h3>
+    <div class="formula-box">
+        <b>SGPA = (Sum of (Credit × Grade Point) for all subjects) / (Sum of Total Credits)</b>
+    </div>
+
+    <h3>🎯 Example for SGPA Calculation (As per DBATU Grading System)</h3>
+    <div class="example-box">
+        Consider a student with 5 subjects and the following details:  
+        <ul>
+            <li>📌 Subject 1: Credits = 3, Grade = AA (9.0)</li>
+            <li>📌 Subject 2: Credits = 4, Grade = BB (8.0)</li>
+            <li>📌 Subject 3: Credits = 3, Grade = BC (7.5)</li>
+            <li>📌 Subject 4: Credits = 3, Grade = AB (8.5)</li>
+            <li>📌 Subject 5: Credits = 2, Grade = CC (7.0)</li>
+        </ul>
+        <p>Total Grade Points = (3×9.0) + (4×8.0) + (3×7.5) + (3×8.5) + (2×7.0) = 121</p>
+        <p>Total Credits = 3 + 4 + 3 + 3 + 2 = 15</p>
+        <p><strong>✅ SGPA = 121 / 15 = 8.07</strong></p>
+    </div>
+
+    <h3>🔢 CGPA Calculation Formula</h3>
+    <div class="formula-box">
+        <b>CGPA = (Sum of (SGPA × Semester Credits) for all semesters) / (Sum of Total Credits)</b>
+    </div>
+
+    <h3>📌 Example for CGPA Calculation</h3>
+    <div class="example-box">
+        Consider a student who has completed 3 semesters with the following SGPA and credits:  
+        <ul>
+            <li>🎓 Semester 1: SGPA = 8.0, Credits = 20</li>
+            <li>🎓 Semester 2: SGPA = 7.5, Credits = 22</li>
+            <li>🎓 Semester 3: SGPA = 8.2, Credits = 21</li>
+        </ul>
+        <p>Total Weighted SGPA = (8.0×20) + (7.5×22) + (8.2×21) = 497.2</p>
+        <p>Total Credits = 20 + 22 + 21 = 63</p>
+        <p><strong>✅ CGPA = 497.2 / 63 = 7.89</strong></p>
+    </div>
+
+    <h2>👨‍💻 About the Developer</h2>
+    <p><b>Manish Prajapati</b>, the developer of this tool, is passionate about building intuitive and useful web applications for students. This SGPA & CGPA calculator was developed with accuracy and ease of use in mind to help DBATU students quickly compute their grades. Your feedback and support are always appreciated! 🚀</p>
+
+    <h2>⚠️ Disclaimer</h2>
+    <div class="disclaimer-box">
+        <p>🚨 This calculator is designed for educational purposes only. While every effort has been made to ensure accuracy, the final grading should be verified with official university records. DBATU's grading policies may change, so always cross-check with official sources.</p>
+    </div>
+</div>
